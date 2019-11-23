@@ -4,10 +4,12 @@ let isHidden = true;
 
 function handleMenuCollapse() {
     if (isHidden) {
-        menuCollapse.style.visibility = "visible";
+        // menuCollapse.style.visibility = "visible";
+        menuCollapse.style.display = "block";
         isHidden = false;
     } else {
-        menuCollapse.style.visibility = "collapse";
+        // menuCollapse.style.visibility = "collapse";
+        menuCollapse.style.display = "none";
         isHidden = true;
     }
 }
@@ -16,7 +18,8 @@ document.getElementById("container-menu-icon").addEventListener("click", handleM
 
 
 function closeMenu() {
-    menuCollapse.style.visibility = "collapse";
+    // menuCollapse.style.visibility = "collapse";
+    menuCollapse.style.display = "none";
     isHidden = true;
 }
 
