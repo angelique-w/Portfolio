@@ -9,7 +9,7 @@ let arrayProjects = [
         imageMax: "./images/images-projets/portfolioMax.png",
         description: "Prise en main de JavaScript Vanilla et manipulation du DOM via ce portfolio.",
         descriptionModal: "Il me semblait important de prendre en main le JavaScript Vanilla avant d'entamer l'apprentissage d'un de ses frameworks. La réalisation de ce portfolio a été pour moi l'occasion de mettre en pratique le JavaScript Vanilla, de manipuler le DOM par ce biais et d'appréhender la POO.",
-        url:"#home",
+        url:"",
         techno: "HTML - CSS - JavaScript Vanilla",
         isProjectIndividial: true
     },
@@ -82,6 +82,7 @@ class Projet {
     }
 
     displayProject(projet) {
+        const voirProjet = projet.url !== "" ? `<a href=${projet.url} target="_blank">Voir le projet</a>` : '';
         const cardProjet = 
         `<div id=${projet.id} class="card" title="En savoir plus">
             <img class="img-card" src=${projet.imageMin} alt=${projet.title} />
@@ -100,7 +101,7 @@ class Projet {
                         <h2 class="">${projet.title}</h2>
                         <p class="text-justify">${projet.descriptionModal}</p>
                         <p class="technos">Techno utilisées : ${projet.techno}</p>
-                        <a href=${projet.url} target="_blank">Voir le projet</a>
+                        ${voirProjet}
                     </div>
                 </div>
             </div>
