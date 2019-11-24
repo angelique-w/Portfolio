@@ -263,10 +263,13 @@ nav {
     width: 40px;
 }
 
-.p-about {
+.p-about-layout {
     font-size: 1.2rem;
-    font-style: italic;
     text-align: justify;
+}
+
+.p-about-italic {
+    font-style: italic;
 }
 
 
@@ -470,7 +473,7 @@ footer hr {
 
 /*largeur p section about*/
 
-    .p-about {
+    .p-about-layout {
         width: 50vw;
     }
 
