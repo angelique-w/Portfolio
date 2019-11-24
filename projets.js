@@ -22,7 +22,7 @@ let arrayProjects = [
         imageMax: "./images/images-projets/portfolioWild.png",
         description: "Réalisation du portfolio de la session septembre 2019 - février 2020 de la Wild Code School.",
         descriptionModal: "Ce portfolio a été notre premier projet réalisé dans le cadre de la Wild Code School. Nous étions une équipe de 4. Nous avons ainsi appréhendé le travail de groupe, l'intérêt d'utiliser des outils de gestion de version (dans ce cas précis Github) la répartition des tâches, pour présenter un projet dans un délais imparti.",
-        url:"",
+        url:"https://wcs-sept2019-portfolio.netlify.com/",
         techno: "HTML - CSS - JavaScript Vanilla",
         isProjectIndividial: false
     },
