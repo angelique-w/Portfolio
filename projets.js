@@ -47,7 +47,7 @@ let arrayProjects = [
         imageMin: "./images/images-projets/visuel-a-venir.png",
         imageMax: "./images/images-projets/visuel-a-venir.png",
         description: "Développement d'un jeu de combat durant un hackthon de 24h en collaboration avec une équipe PHP.",
-        descriptionModal: "Nous avons participé à un hackathon de 24h avec un collègue JavaScript, en partenariat avec 3 collaborateurs PHP. Notre sujet de départ était une API contenant des monstres présentant différentes caractéristiques. Nous avons choisi de développer un jeu de combat de monstres que nous avons pu rendre fonctionnel dans le temps imparti. Nous avons pris le temps par la suite de finaliser les derniers détails pour le rendre plus agréable à l'utilisation et plus ludique.",
+        descriptionModal: "Nous avons participé à un hackathon de 24h avec un collègue JavaScript, en partenariat avec 3 collaborateurs PHP. Notre sujet de départ était une API contenant des monstres présentant différentes caractéristiques. Nous avons choisi de développer un jeu de combat de monstres que nous avons pu rendre fonctionnel dans le temps imparti. Dans le cadre de ce projet, j'ai principalement travaillé sur la fonctionnalité permettant de créer un nouveau monstre customisé. Nous avons pris le temps par la suite de finaliser les derniers détails pour le rendre plus agréable à l'utilisation et plus ludique.",
         url:"",
         techno: "React - Reacstrap - API Rest - CSS",
         isProjectIndividial: false
