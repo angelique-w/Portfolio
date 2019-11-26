@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Portfolio Angélique Wons</title>
+        <meta charset="UTF-8" />
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+        <meta name="author" content="Angélique Wons">
+        <meta name="description" content="Angélique Wons, développeuse junior JS/React : travaux, projets, portfolio, compétences, technologies employées">
+
+        <!-- Style Sheet CSS -->
+        <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="style.css">
+    
+    </head>
+    <body>
+        <header id="home" class="margin-end-section home-page flex-column align-items-center">
+            <nav class="flex-column align-items-center">
+                <div id="menu-collapse" class="menu-collapse">
+                    <ul class="nav-list">
+                        <li id="nav-list-element" class="nav-list-element">
+                            <a href="#home" class="">Accueil</a>
+                        </li>
+                        <li id="nav-list-element" class="nav-list-element">
+                            <a href="#about" class="">A propos</a>
+                        </li>
+                        <li id="nav-list-element" class="nav-list-element">
+                            <a href="#portfolio" class="">Portfolio</a>
+                        </li>
+                        <li id="nav-list-element" class="nav-list-element">
+                            <a href="#competency" class="">Compétences</a>
+                        </li>
+                        <li id="nav-list-element" class="nav-list-element">
+                            <a href="#contact" class="">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="container-menu-icon" class="container-menu-icon">
+                    <img class="menu-icon" src="/images/icon_menu_light_white.png" alt="menu icon">
+                </div>
+            </nav>
+            <img class="img-profil" src="/images/photo-profil.png" alt="Angélique Wons">
+            <p id="name" class="name text-lightgrey text-center text-uppercase">Angélique Wons</p>
+            <p class="profil-text text-lightgrey text-center">Développeuse JS/React/Node en formation <br>
+            En recherche de stage</p>
+            <a href="#contact" class="btn my-btn-lightgrey margin-end-section">Me contacter</a>
+        </header>
+        <section id="about" class="margin-end-section">
+            <h1>A propos</h1>
+            <hr>
+            <div class="little-space-container-section flex-column align-items-center">
+                <p class="p-about-layout">En formation <strong>Développeur web</strong> à la Wild Code School de Biarritz - parcours Javascript/React/Node.js
+                    <ul>
+                        <li>Apprendre à apprendre</li>
+                        <li>La pratique au premier plan</li>
+                        <li>Savoir se confronter aux problèmes rencontrés...</li>
+                        <li>...pour apprendre à les résoudre</li>
+                        <li>Développement de l'autonomie</li>
+                        <li>Travail sur projets réels</li>
+                        <li>Méthodes agiles mises en pratique</li>
+                    </ul>
+                </p>
+                <img class="logoWildCodeSchool" src="/images/logo-wcs.png" alt="Logo Wild Code School">
+                <br>
+                <a class="btn my-btn-cuivre" href="https://www.wildcodeschool.com/fr-FR/campus/biarritz" target="_blank">En savoir plus sur la formation</a>
+                <p class="text-center">Actuellement en recherche de stage<br>
+                Stage de 4 mois<br>
+                février - juin 2019</p>
+                <img class="briefcaseIcon" src="/images/briefcase.png" alt="logo malette">
+                <p class="p-about-layout p-about-italic">"J'aspire à mettre en oeuvre des solutions informatiques. La dimension analytique et le challenge rencontré face à un problème, la manipulation de variables voire la possibilité d'étudier leur valeur prédictive, le machine learning, représentent pour moi une source de motivation professionnelle.</br>
+                Je suis aujourd'hui à la recherche d'un stage me permettant dans un premier temps d'asseoir mes compétences. Désireuse d'évoluer et d'apprendre, je ne suis pas fermée quant aux langages à manipuler."</p>
+            </div>
+        </section>
+        <section id="resume" class="margin-end-section flex-column justify-content-center align-items-center">
+                <a class="btn my-btn-cuivre-inverse" href="images/cv-dev.pdf" target="_blank">CV en PDF</a>
+        </section>
+        <section id="portfolio">
+            <h1>Portfolio</h1>
+            <hr>
+            <div class="bg-portfolio big-space-section-container flex-row justify-content-space-between align-items-center">
+                <button id="slideLeft" class="btn container-chevron">
+                    <img class="chevron" src="./images//chevron-gauche-white.png" alt="chevron gauche">
+                </button>
+                <div id="container-projects" class="scrolling-wrapper-flexbox">                           
+                </div>
+                <button id="slideRight" class="btn container-chevron">
+                    <img class="chevron" src="./images//chevron-droit-white.png" alt="chevron droit">
+                </button>
+            </div> 
+        </section>
+        <section id="competency">
+            <h1>Compétences</h1>
+            <hr>
+            <div id="container-skills" class="big-space-section-container container-logo flex-row justify-content-space-around flex-wrap">
+            </div>
+        </section>
+        <section id="contact">
+            <div class="h1-contact">
+                <h1 class="color-blanc">Contact</h1>
+                <hr class="border-blanc">
+            </div>
+            <div class="big-space-section-container">
+                <h2 class="text-center">Angélique Wons</h2>
+                <p class="text-center little-margin-top">Bayonne et ses alentours</p>
+                <p class="text-center">Egalement ouverte aux opportunités de travail en remote</p>
+                <p class="text-center  italic little-margin-top">Vous pouvez me contacter à l'adresse suivante :</p>
+                <p class="text-center mail"><a class="color-cuivre text-center" href="mailto:angelique.wons@gmail.com">angelique.wons@gmail.com</a></p>
+                <p class="text-center  italic little-margin-top">Retrouvez-moi sur les réseaux sociaux :</p>
+                <div class="flex-row justify-content-center">
+                    <a href="https://www.linkedin.com/in/ang%C3%A9lique-wons/" target="_blank"><img class="logo-contact" src="./images/logo-linkedin.png" alt="logo linkedin"></a>
+                    <a href="https://github.com/angelique-w" target="_blank"><img class="logo-contact" src="./images/logo-github.svg" alt="logo github"></a>
+                </div>
+            </div>
+            <!--TODO : form votre nom, votre mail, Message + button--> 
+        </section>
+        <footer>
+            <p>Angélique Wons</p>
+            <hr>
+        </footer>
+
+        <script src="menu-collapse.js" type="text/javascript"></script>
+        <script src="projets.js" type="text/javascript"></script>
+        <script src="skills.js" type="text/javascript"></script>
+    </body>
+</html>
