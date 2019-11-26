@@ -56,7 +56,7 @@ let arrayProjects = [
         id: "card5",
         idModal: "modal5",
         idCloseModal: "closeModal5",
-        title: "Logicile ERP",
+        title: "Logiciel ERP",
         imageMin: "./images/images-projets/visuel-a-venir.png",
         imageMax: "./images/images-projets/visuel-a-venir.png",
         description: "Réalisation en cours d'une solution logiciel pour fluidifier la gestion administrative et pédagogique d'une association culturelle.",
@@ -126,51 +126,6 @@ arrayProjects.forEach((projet) => {
     const newProjet = new Projet(`${projet.id}`, `${projet.idModal}`, `${projet.idCloseModal}`, `${projet.title}`, `${projet.imageMin}`, `${projet.imageMax}`, `${projet.description}`, `${projet.descriptionModal}`, `${projet.url}`, `${projet.techno}`);
     newProjet.displayProject(projet);
 })
-
-
-// const templateProject = (projet) => {
-//     const cardProjet = 
-//     `<div id=${projet.id} class="card" title="En savoir plus">
-//         <img class="img-card" src=${projet.imageMin} alt=${projet.title} />
-//         <h2 class="padding-card">${projet.title}</h2>
-//         <p class="padding-card">${projet.description}</p>
-//         <p class="padding-card technos">${projet.techno}</p>
-//     </div>
-//     <div id=${projet.idModal} class="modal">
-//         <div class="modal-content">
-//             <span class="close">&times;</span>
-//             <div>
-//                 <img class="img-modal" src=${projet.imageMax} alt=${projet.title} />
-//             </div>
-//             <div>
-//                 <h2 class="">${projet.title}</h2>
-//                 <p class="">${projet.descriptionModal}</p>
-//                 <p class="">Techno utilisées : ${projet.techno}</p>
-//                 <a href=${projet.url} target="_blank">Voir le projet</a>
-//             </div>
-//         </div>
-//     </div>`;
-
-//     document.getElementById("container-projects").insertAdjacentHTML('beforeend', cardProjet);
-// }
-
-
-
-/*Display Modal*/
-
-// const modal = document.getElementById(`${projet.idModal}`);
-// const card = document.getElementById(`${projet.id}`);
-// const close = document.getElementsByClassName("close")[0];
-
-// card.onclick = () => {
-//     modal.style.display = "block";
-// }
-
-// close.onclick = () => {
-//     modal.style.display = "none";
-// }
-
-
 
 
 /*Horizontal scroll buttons*/
