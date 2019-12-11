@@ -19,9 +19,18 @@ let skills = [
          name: "React",
          logo: "./images/logo-react.png"
     },
+    ,
+    {
+        name: "Redux",
+        logo: "./images/logo-redux.png"
+    },
     {
         name: "Node.js",
         logo: "./images/logo-node-js.png"
+    },
+    {
+        name: "API Rest",
+        logo: "./images/logo-restapi.png"
     },
     {
         name: "GitHub",
